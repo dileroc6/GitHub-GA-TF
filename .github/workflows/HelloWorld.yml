@@ -10,7 +10,7 @@ jobs: #Creo que un job significa trabajar en una maquina
     runs-on: ubuntu-latest
 
     steps:
-    - name: Mosttrar "Hello World"
+    - name: Mostrar "Hello World"
       run: echo "Hello World!!!"
 
     - name: Dime la fecha
