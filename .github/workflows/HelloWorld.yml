@@ -4,7 +4,7 @@ on:
   push
    branches: ["main"]
 
-jobs: #Creo que unn job significa trabajar en una maquina
+jobs: #Creo que un job significa trabajar en una maquina
   saludar:
 
   runs-on: ubuntu-latest
