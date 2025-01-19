@@ -6,13 +6,16 @@ on:
 
 jobs: #Creo que un job significa trabajar en una maquina
   saludar:
-
     runs-on: ubuntu-latest
 
     steps:
     - name: Mostrar "Hello World"
       run: echo "Hello World!!!"
 
+  fecha:
+    runs-on: ubuntu-latest
+
+    steps:
     - name: Dime la fecha
       run: date
 
